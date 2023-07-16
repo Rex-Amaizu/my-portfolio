@@ -12,7 +12,7 @@ const Hero = () => {
         <div className="flex-col h-[55rem] flex items-center md:flex-row justify-center relative gap-[10px] ">
           <div className=" flex items-center justify-center relative gap-[10px]">
             <div className="flex flex-col max-w-3xl relative items-center  ">
-              <h1 className="pt-[130px] md:pt-0 text-[30px] md:text-[5.4rem] text-center text-[#2d2e32] leading-[1.2] my-8 font-medium ">
+              <h1 className="pt-[170px] md:pt-0 text-[30px] md:text-[5.4rem] text-center text-[#2d2e32] leading-[1.2] my-8 font-medium ">
                 Front-End React Developer
               </h1>
               <Image
@@ -20,7 +20,7 @@ const Hero = () => {
                 width={60}
                 height={60}
                 alt="hero-waving"
-                className="absolute top-[110px] right-[40px]"
+                className="absolute top-[230px] right-[17px] md:top-[110px] md:right-[40px]"
               />
               <p className="text-[#555] !font-[Mulish] text-center font-medium leading-[1.6] text-[18px] ">
                 Hi, I'm Gideon Odiokine. A passionate Front-end React <br />
