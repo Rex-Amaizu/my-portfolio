@@ -52,50 +52,26 @@ const Hero = () => {
               Tech Stack
             </p>
             <div className="logos">
-              {/* <ul>
-                <li>
-                  <img
-                    src="/static/media/html.6e7b1b463015c056aeb9a624c8dc2876.svg"
-                    title="HTML5"
-                    alt="skill-icon"
-                  />
+              <ul className='flex flex-wrap gap-9 list-none ' >
+                <li className='flex items-center justify-center h-[6.4rem] w-[6.4rem] bg-white rounded-full shadow-3xl '>
+                 <Image src="/homeIcons/html.svg" width={34} height={34} alt="skill-icon" />
                 </li>
-                <li>
-                  <img
-                    src="/static/media/css3.9cecabbf6ce67609c48bc4f280a11002.svg"
-                    title="CSS3"
-                    alt="skill-icon"
-                  />
+                <li  className='flex items-center justify-center h-[6.4rem] w-[6.4rem] bg-white rounded-full shadow-3xl '>
+                 <Image src="/homeIcons/css3.svg" width={34} height={34} alt="skill-icon" />
                 </li>
-                <li>
-                  <img
-                    src="/static/media/javascript.de4c2594613e34b15666206bbede7327.svg"
-                    title="Java Script"
-                    alt="skill-icon"
-                  />
+                <li  className='flex items-center justify-center h-[6.4rem] w-[6.4rem] bg-white rounded-full shadow-3xl '>
+                  <Image src="/homeIcons/javascript.svg" width={34} height={34} alt="skill-icon" />
                 </li>
-                <li>
-                  <img
-                    src="/static/media/react.afac9c43724070bf6674f2692b7356a9.svg"
-                    title="React"
-                    alt="skill-icon"
-                  />
+                <li  className='flex items-center justify-center h-[6.4rem] w-[6.4rem] bg-white rounded-full shadow-3xl '>
+                    <Image src="/homeIcons/react.svg" width={34} height={34} alt="skill-icon" />
                 </li>
-                <li>
-                  <img
-                    src="/static/media/tailwind.79614a5f61617ba49a0891494521226b.svg"
-                    title="Tailwind CSS"
-                    alt="skill-icon"
-                  />
+                <li  className='flex items-center justify-center h-[6.4rem] w-[6.4rem] bg-white rounded-full shadow-3xl '>
+                    <Image src="/homeIcons/nextjs.svg" width={34} height={34} alt="skill-icon" />
                 </li>
-                <li>
-                  <img
-                    src="/static/media/scss.67cd0525916c4cdea4eb3abd8ae11137.svg"
-                    title="SCSS"
-                    alt="skill-icon"
-                  />
+                <li  className='flex items-center justify-center h-[6.4rem] w-[6.4rem] bg-white rounded-full shadow-3xl '>
+                    <Image src="/homeIcons/redux.png" width={34} height={34} alt="skill-icon" />
                 </li>
-              </ul> */}
+              </ul>
             </div>
           </div>
         </div>
