@@ -102,3 +102,16 @@ body {
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
   }
 }
+
+.img-side span img {
+  -webkit-animation: rotate 9s linear infinite;
+  animation: rotate 9s linear infinite;
+  width: 19rem;
+}
+
+@keyframes rotate {
+  100% {
+    -webkit-transform: rotate(1turn);
+    transform: rotate(1turn);
+  }
+}
