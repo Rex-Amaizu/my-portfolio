@@ -9,10 +9,10 @@ const Hero = () => {
       className="bg-[#f9f9f9] flex flex-col h-screen relative w-full"
     >
       <div className="container mx-auto  px-16">
-        <div className="h-[55rem] flex items-center justify-center relative gap-[10px] ">
+        <div className="flex-col h-[55rem] flex items-center md:flex-row justify-center relative gap-[10px] ">
           <div className=" flex items-center justify-center relative gap-[10px]">
             <div className="flex flex-col max-w-3xl relative items-center  ">
-              <h1 className="text-[5.4rem] text-center text-[#2d2e32] leading-[1.2] my-8 font-medium ">
+              <h1 className="pt-[130px] md:pt-0 text-[30px] md:text-[5.4rem] text-center text-[#2d2e32] leading-[1.2] my-8 font-medium ">
                 Front-End React Developer
               </h1>
               <Image
@@ -26,7 +26,7 @@ const Hero = () => {
                 Hi, I'm Gideon Odiokine. A passionate Front-end React <br />
                 Developer based in Calabar, Nigeria. 📍
               </p>
-              <span className="flex cursor-pointer gap-5 mt-9 mx-0">
+              <span className="mb-16 md:mb-0 flex cursor-pointer gap-5 mt-9 mx-0">
                 <Link
                   aria-label="linkedin"
                   rel="noreferrer"
@@ -47,12 +47,12 @@ const Hero = () => {
             </div>
             <div className="hero-img" />
           </div>
-          <div className="flex text-[#767676] absolute left-0 bottom-0 items-center text-[17px]  px-[95px]">
-            <p className="font-[Mulish] text-[#2d2e32] font-semibold mr-28 pr-8  border-r-2 border-[2px solid rgba(45,46,50,.5)] ">
+          <div className="flex-col static flex text-[#767676] md:flex-row md:absolute left-0 bottom-0 items-center text-[17px]  md:px-[95px]">
+            <p className="pb-4 mb-12 md:pb-0 border-b-2 font-[Mulish] text-[#2d2e32] font-semibold md:mr-28 pr-8  md:border-r-2 border-[2px solid rgba(45,46,50,.5)] ">
               Tech Stack
             </p>
             <div className="logos">
-              <ul className='flex flex-wrap gap-9 list-none ' >
+              <ul className='justify-center md:justify-normal flex flex-wrap gap-9 list-none ' >
                 <li className='flex items-center justify-center h-[6.4rem] w-[6.4rem] bg-white rounded-full shadow-3xl '>
                  <Image src="/homeIcons/html.svg" width={34} height={34} alt="skill-icon" />
                 </li>
