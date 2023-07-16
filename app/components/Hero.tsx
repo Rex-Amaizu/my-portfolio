@@ -20,7 +20,7 @@ const Hero = () => {
                 width={60}
                 height={60}
                 alt="hero-waving"
-                className="absolute top-[230px] right-[17px] md:top-[110px] md:right-[40px]"
+                className="hidden absolute md:block top-[230px] right-[17px] md:top-[110px] md:right-[40px]"
               />
               <p className="text-[#555] !font-[Mulish] text-center font-medium leading-[1.6] text-[18px] ">
                 Hi, I'm Gideon Odiokine. A passionate Front-end React <br />
