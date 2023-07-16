@@ -22,7 +22,7 @@ const Hero = () => {
                 alt="hero-waving"
                 className="absolute top-[110px] right-[40px]"
               />
-              <p className="text-[#555] !font-[Mulish] font-medium leading-[1.6] text-[18px] ">
+              <p className="text-[#555] !font-[Mulish] text-center font-medium leading-[1.6] text-[18px] ">
                 Hi, I'm Gideon Odiokine. A passionate Front-end React <br />
                 Developer based in Calabar, Nigeria. 📍
               </p>
