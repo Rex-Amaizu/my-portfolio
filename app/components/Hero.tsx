@@ -13,7 +13,7 @@ const Hero = () => {
           <div className=" flex items-center justify-center relative gap-[10px]">
             <div className="flex flex-col max-w-3xl relative items-center  ">
               <h1 className="pt-[170px] md:pt-0 text-[30px] md:text-[5.4rem] text-center text-[#2d2e32] leading-[1.2] my-8 font-medium ">
-                Front-End React Developer
+                Front-End React Engineer
               </h1>
               <Image
                 src="/homeIcons/waving.png"
