@@ -69,7 +69,7 @@ const Hero = () => {
                     <Image src="/homeIcons/nextjs.svg" width={34} height={34} alt="skill-icon" />
                 </li>
                 <li  className='flex items-center justify-center h-[6.4rem] w-[6.4rem] bg-white rounded-full shadow-3xl '>
-                    <Image src="/homeIcons/tailwind.svg." width={34} height={34} alt="skill-icon" />
+                    <Image src="/homeIcons/tailwind.svg" width={34} height={34} alt="skill-icon" />
                 </li>
               </ul>
             </div>
