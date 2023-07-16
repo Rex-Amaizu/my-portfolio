@@ -48,28 +48,58 @@ const Hero = () => {
             <div className="hero-img" />
           </div>
           <div className="flex-col static flex text-[#767676] md:flex-row md:absolute left-0 bottom-0 items-center text-[17px]  md:px-[95px]">
-            <p className="pb-4 mb-12 md:pb-0 border-b-2 font-[Mulish] text-[#2d2e32] font-semibold md:mr-28 pr-8  md:border-r-2 border-[2px solid rgba(45,46,50,.5)] ">
+            <p className="pb-4 border-b-2 md:border-b-0 mb-12 md:mb-0 md:pb-0  font-[Mulish] text-[#2d2e32] font-semibold md:mr-28 md:pr-8  md:border-r-2 border-[2px solid rgba(45,46,50,.5)] ">
               Tech Stack
             </p>
             <div className="logos">
-              <ul className='justify-center md:justify-normal flex flex-wrap gap-9 list-none ' >
-                <li className='flex items-center justify-center h-[6.4rem] w-[6.4rem] bg-white rounded-full shadow-3xl '>
-                 <Image src="/homeIcons/html.svg" width={34} height={34} alt="skill-icon" />
+              <ul className="justify-center md:justify-normal flex flex-wrap gap-9 list-none ">
+                <li className="flex items-center justify-center h-[6.4rem] w-[6.4rem] bg-white rounded-full shadow-3xl ">
+                  <Image
+                    src="/homeIcons/html.svg"
+                    width={34}
+                    height={34}
+                    alt="skill-icon"
+                  />
                 </li>
-                <li  className='flex items-center justify-center h-[6.4rem] w-[6.4rem] bg-white rounded-full shadow-3xl '>
-                 <Image src="/homeIcons/css3.svg" width={34} height={34} alt="skill-icon" />
+                <li className="flex items-center justify-center h-[6.4rem] w-[6.4rem] bg-white rounded-full shadow-3xl ">
+                  <Image
+                    src="/homeIcons/css3.svg"
+                    width={34}
+                    height={34}
+                    alt="skill-icon"
+                  />
                 </li>
-                <li  className='flex items-center justify-center h-[6.4rem] w-[6.4rem] bg-white rounded-full shadow-3xl '>
-                  <Image src="/homeIcons/javascript.svg" width={34} height={34} alt="skill-icon" />
+                <li className="flex items-center justify-center h-[6.4rem] w-[6.4rem] bg-white rounded-full shadow-3xl ">
+                  <Image
+                    src="/homeIcons/javascript.svg"
+                    width={34}
+                    height={34}
+                    alt="skill-icon"
+                  />
                 </li>
-                <li  className='flex items-center justify-center h-[6.4rem] w-[6.4rem] bg-white rounded-full shadow-3xl '>
-                    <Image src="/homeIcons/react.svg" width={34} height={34} alt="skill-icon" />
+                <li className="flex items-center justify-center h-[6.4rem] w-[6.4rem] bg-white rounded-full shadow-3xl ">
+                  <Image
+                    src="/homeIcons/react.svg"
+                    width={34}
+                    height={34}
+                    alt="skill-icon"
+                  />
                 </li>
-                <li  className='flex items-center justify-center h-[6.4rem] w-[6.4rem] bg-white rounded-full shadow-3xl '>
-                    <Image src="/homeIcons/nextjs.svg" width={34} height={34} alt="skill-icon" />
+                <li className="flex items-center justify-center h-[6.4rem] w-[6.4rem] bg-white rounded-full shadow-3xl ">
+                  <Image
+                    src="/homeIcons/nextjs.svg"
+                    width={34}
+                    height={34}
+                    alt="skill-icon"
+                  />
                 </li>
-                <li  className='flex items-center justify-center h-[6.4rem] w-[6.4rem] bg-white rounded-full shadow-3xl '>
-                    <Image src="/homeIcons/tailwind.svg" width={34} height={34} alt="skill-icon" />
+                <li className="flex items-center justify-center h-[6.4rem] w-[6.4rem] bg-white rounded-full shadow-3xl ">
+                  <Image
+                    src="/homeIcons/tailwind.svg"
+                    width={34}
+                    height={34}
+                    alt="skill-icon"
+                  />
                 </li>
               </ul>
             </div>
