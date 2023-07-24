@@ -35,7 +35,6 @@ export default function RootLayout({
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head>
-        <title>Gideon Odiokine</title>
         <meta content="width=device-width, initial-scale=1" name="viewport" />
         <link
           rel="icon"
