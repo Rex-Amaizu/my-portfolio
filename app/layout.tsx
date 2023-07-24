@@ -3,11 +3,10 @@ import "../styles/globals.css"
 import Navbar from "@/components/Navbar"
 import Footer from "@/components/Footer"
 import { ThemeProvider } from "next-themes"
-import type { Metadata } from "next";
 
 
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "Gideon Odiokine",
   description:
     "Gideon Odiokine is a Frontend engineer based in Lagos, Nigeria. Welcome to my developer portfolio! Explore a collection of my projects and web applications showcasing my expertise in building dynamic and interactive web application. With a passion for clean code and innovative solutions, I strive to create seamless user experiences that blend functionality with stunning designs.",
