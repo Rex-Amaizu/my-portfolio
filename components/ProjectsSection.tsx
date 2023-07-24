@@ -10,14 +10,14 @@ const projects = [
     description:
       "ThankfulThoughts is a web app that generates an appreciative sentence of something or someone you are thankful for.",
     image: "/thankfulthoughts.png",
-    github: "https://github.com/hqasmei/thankful-thoughts",
+    github: "https://github.com/gideonodiokine",
     link: "https://thankfulthoughts.io/",
   },
   {
     name: "PlatoIO",
     description: "PlatoIO is a to do list app that built using the PERN stack.",
     image: "/platoio.png",
-    github: "https://github.com/hqasmei/platoio",
+    github: "https://github.com/gideonodiokine",
     link: "https://platoio.com/register",
   },
   {
@@ -25,10 +25,10 @@ const projects = [
     description:
       "Kator Family Photos is a photos and video digitization service in the LA area.",
     image: "/familyphotos.png",
-    github: "https://github.com/hqasmei/katorfamilyphotos",
+    github: "https://github.com/gideonodiokine",
     link: "https://katorfamilyphotos.com/",
   },
-]
+];
 
 const ProjectsSection = () => {
   return (
@@ -80,7 +80,7 @@ const ProjectsSection = () => {
             </div>
           )
         })}
-        
+
       </div>
     </section>
   )
