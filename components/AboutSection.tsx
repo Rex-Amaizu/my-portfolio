@@ -41,7 +41,7 @@ const AboutSection = () => {
               <span className="font-bold">{"highly ambitious"}</span>,
               <span className="font-bold">{" self-motivated"}</span>, and
               <span className="font-bold">{" driven"}</span> frontend engineer
-              based in Calabar, Nigeria.
+              based in Lagos, Nigeria.
             </p>
             <br />
             <p>
