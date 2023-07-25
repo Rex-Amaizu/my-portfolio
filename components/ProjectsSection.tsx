@@ -14,19 +14,28 @@ const projects = [
     link: "https://thebusinesshub.ng/",
   },
   {
-    name: "PlatoIO",
-    description: "PlatoIO is a to do list app that built using the PERN stack.",
-    image: "/platoio.png",
+    name: "Kadavra BDC",
+    description:
+      "Kadavra is revolutionizing the FX Market. Our goal is to make global financial transactions simpler, faster, and more convenient for our clients.",
+    image: "/kadavra.png",
     github: "https://github.com/gideonodiokine",
-    link: "https://platoio.com/register",
+    link: "https://www.kadavra.co/",
   },
   {
-    name: "Kator Family Photos",
+    name: "Sedher Health",
     description:
-      "Kator Family Photos is a photos and video digitization service in the LA area.",
-    image: "/familyphotos.png",
+      "Sedher Health is an hospital management system  set out to revolutionize and improve everything about the way we provide medical care in  london.",
+    image: "/sedher.png",
     github: "https://github.com/gideonodiokine",
     link: "https://katorfamilyphotos.com/",
+  },
+  {
+    name: "Creditwave",
+    description:
+      "Creditwave is a digital financial services firm established with the aim of providing quick and easy access to financial services in the retail sector of Nigeria, Africa and other emerging markets.",
+    image: "/creditwave.png",
+    github: "https://github.com/richardingwe/creditwave",
+    link: "https://creditwave-website.vercel.app/",
   },
 ];
 
