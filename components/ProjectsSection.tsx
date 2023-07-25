@@ -27,7 +27,7 @@ const projects = [
       "Sedher Health is an hospital management system  set out to revolutionize and improve everything about the way we provide medical care in  london.",
     image: "/sedher.png",
     github: "https://github.com/GideonOdiokine/sedher-admin",
-    link: "https://katorfamilyphotos.com/",
+    link: "https://sedher.vercel.app/auth/signin",
   },
   {
     name: "Creditwave",
