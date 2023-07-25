@@ -24,7 +24,7 @@ const HeroSection = () => {
             <span className="font-semibold text-teal-600">
               Frontend Engineer{" "}
             </span>
-            based in Calabar, Nigeria. Working towards creating software that
+            based Nigeria. Working towards creating software that
             makes life easier and more meaningful.
           </p>
           <Link
