@@ -13,14 +13,7 @@ const projects = [
     github: "https://github.com/gideonodiokine",
     link: "https://thebusinesshub.ng/",
   },
-  {
-    name: "Kadavra BDC",
-    description:
-      "Kadavra is revolutionizing the FX Market. Our goal is to make global financial transactions simpler, faster, and more convenient for our clients.",
-    image: "/kadavra.png",
-    github: "https://github.com/gideonodiokine",
-    link: "https://www.kadavra.co/",
-  },
+
   {
     name: "Sedher Health",
     description:
@@ -36,6 +29,15 @@ const projects = [
     image: "/creditwave.png",
     github: "https://github.com/richardingwe/creditwave",
     link: "https://creditwave-website.vercel.app/",
+  },
+
+  {
+    name: "Crowdfunding Platform",
+    description:
+      "Blockchain, metamask pairing, interaction with smart contracts, sending Ethereum through the blockchain network, and writing solidity code.",
+    image: "/kadavra.png",
+    github: "https://github.com/gideonodiokine",
+    link: "https://www.kadavra.co/",
   },
 ];
 
