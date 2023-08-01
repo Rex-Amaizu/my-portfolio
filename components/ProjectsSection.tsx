@@ -35,7 +35,7 @@ const projects = [
     name: "Crowdfunding Platform",
     description:
       "Blockchain, metamask pairing, interaction with smart contracts, sending Ethereum through the blockchain network, and writing solidity code.",
-    image: "/kadavra.png",
+    image: "/crowdfunding.png",
     github: "https://github.com/gideonodiokine",
     link: "https://www.kadavra.co/",
   },
