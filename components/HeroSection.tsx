@@ -33,10 +33,10 @@ const HeroSection = () => {
             href="mailto:gideonodiokine@gmail.com"
             className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded cursor-pointer shadow hover:bg-teal-700"
             // activeClass="active"
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={500}
+            // spy={true}
+            // smooth={true}
+            // offset={-100}
+            // duration={500}
           >
             Hire Me
           </a>
