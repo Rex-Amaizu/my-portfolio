@@ -37,7 +37,7 @@ const projects = [
       "Blockchain, metamask pairing, interaction with smart contracts, sending Ethereum through the blockchain network, and writing solidity code.",
     image: "/crowdfunding.png",
     github: "https://github.com/gideonodiokine",
-    link: "https://www.kadavra.co/",
+    link: "https://github.com/GideonOdiokine/-project_crowdfunding",
   },
 ];
 
