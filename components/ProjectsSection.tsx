@@ -34,7 +34,7 @@ const projects = [
   {
     name: "Crowdfunding Platform",
     description:
-      "Blockchain, metamask pairing, interaction with smart contracts, sending Ethereum through the blockchain network, and writing solidity code.",
+      "Blockchain, metamask pairing, interaction with smart contracts, sending Ethereum through the blockchain network, and  solidity code.",
     image: "/crowdfunding.png",
     github: "https://github.com/GideonOdiokine/-project_crowdfunding",
     link: "https://hacenbarb-crowdfunding.netlify.app/",
