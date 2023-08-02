@@ -28,8 +28,8 @@ const NAV_ITEMS: Array<NavItem> = [
 ]
 
 export default function Navbar() {
-  const { systemTheme, theme, setTheme } = useTheme()
-  const currentTheme = theme === "system" ? theme : systemTheme;
+    const { systemTheme, theme, setTheme } = useTheme();
+    const currentTheme = theme === "system" ? systemTheme : theme;
   const pathname = usePathname()
   const [navbar, setNavbar] = useState(false)
   return (
@@ -77,18 +77,22 @@ export default function Navbar() {
                   >
                     {item.label}
                   </Link>
-                )
+                );
               })}
               {currentTheme === "dark" ? (
                 <button
-                  onClick={() => setTheme("light")}
+                  onClick={() =>
+                    theme == "dark" ? setTheme("light") : setTheme("dark")
+                  }
                   className="bg-slate-100 p-2 rounded-xl"
                 >
                   <RiSunLine size={25} color="black" />
                 </button>
               ) : (
                 <button
-                  onClick={() => setTheme("dark")}
+                  onClick={() =>
+                    theme == "dark" ? setTheme("light") : setTheme("dark")
+                  }
                   className="bg-slate-100 p-2 rounded-xl"
                 >
                   <RiMoonFill size={25} />
@@ -99,5 +103,5 @@ export default function Navbar() {
         </div>
       </div>
     </header>
-  )
+  );
 }
