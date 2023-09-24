@@ -6,19 +6,35 @@ const skills = [
   { skill: "CSS" },
   { skill: "JavaScript" },
   { skill: "TypeScript" },
-  { skill: "React" },
-  { skill: "Next.js" },
-  { skill: "Vue.js" },
+  { skill: "ReactJs" },
+  { skill: "Nextjs" },
+  { skill: "Nodejs" },
+  { skill: "Expressjs" },
+  { skill: "Nestjs" },
+  { skill: "PHP" },
+  { skill: "Laravel" },
   { skill: "React Native" },
-  { skill: "Node.js" },
-  { skill: "Tailwind CSS" },
-  { skill: "Styled-component" },
-  { skill: "SCSS/SASS" },
-  { skill: "React Storybook" },
+  { skill: "Flutter" },
+  { skill: "Firebase/Cloud Firestore" },
+  { skill: "Heroku" },
+  { skill: "MongoDB" },
+  { skill: "MySQL" },
+  { skill: "GraphQL" },
   { skill: "Prisma" },
+  { skill: "PostgreSQL" },
+  { skill: "Docker" },
+  { skill: "AWS" },
   { skill: "Git" },
   { skill: "GitHub" },
-  { skill: "Docker" },
+  { skill: "Project Management" },
+  { skill: "Unit Test" },
+  { skill: "UI Test" },
+  { skill: "Agile development methodologies" },
+  { skill: "CI/CD" },
+  { skill: "Team Lead" },
+  { skill: "Debugging" },
+  { skill: "Time management" },
+  { skill: "Communication" },
 ];
 
 const AboutSection = () => {
@@ -27,7 +43,6 @@ const AboutSection = () => {
       <div className="my-12 pb-12 md:pt-16 md:pb-48">
         <h1 className="text-center font-bold text-4xl">
           About Me{" "}
-
           <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>
         </h1>
 
@@ -37,23 +52,23 @@ const AboutSection = () => {
               Get to know me!
             </h1>
             <p>
-              Hi, my name is Gideon and I am a{" "}
+              Hi, my name is Rex and I am a{" "}
               <span className="font-bold">{"highly ambitious"}</span>,
               <span className="font-bold">{" self-motivated"}</span>, and
-              <span className="font-bold">{" driven"}</span> frontend engineer
-              based in Lagos, Nigeria.
+              <span className="font-bold">{" driven"}</span> fullstack engineer
+              based in Abuja, Nigeria.
             </p>
             <br />
             <p>
-              I graduated from University of Cross River, Calabar in 2022 with a
-              BS in Computer Science and have been working in the field ever
-              since.
+              I graduated from University of Uyo, Akwaibom in 2016 with a B.Eng
+              in Petroleum engineering but my love for technology directed me
+              towards becoming a software developer.
             </p>
             <br />
             <p>
               I have a wide range of hobbies and passions that keep me busy.
-              From reading, playing sports, traveling, I am always seeking new
-              experiences and love to keep myself engaged and learning new
+              From reading, playing video games, traveling, I am always seeking
+              new experiences and love to keep myself engaged and learning new
               things.
             </p>
             <br />
